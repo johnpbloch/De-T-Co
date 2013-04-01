@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+
+	"name": "De-t.co",
+	"description": "This extension points all t.co urls on a page to their expanded url.",
+	"version": "1.0",
+
+	"permissions": [
+		"https://twitter.com/",
+		"https://*.twitter.com/"
+	],
+	"content_scripts": [
+		{
+			"matches": ["https://twitter.com/*", "https://*.twitter.com/*"],
+			"js": ["src/de-t.co.js"]
+		}
+	]
+}
