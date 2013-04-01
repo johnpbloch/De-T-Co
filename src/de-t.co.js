@@ -1,6 +1,5 @@
 (function(window, undefined){
-	var console = window.console,
-		document = window.document,
+	var document = window.document,
 		clean = function(){
 			var links = document.querySelectorAll('a[href^="http://t.co/"]'),
 				x,
@@ -13,6 +12,5 @@
 			}
 		};
 	
-	clean();
 	interval = window.setInterval( clean, 1000 );
 }(this));
