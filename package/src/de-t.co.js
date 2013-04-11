@@ -1,7 +1,7 @@
 (function(window, undefined){
 	var document = window.document,
 		clean = function(){
-			var links = document.querySelectorAll('a[href^="http://t.co/"]'),
+			var links = document.querySelectorAll('a[href^="http://t.co/"], a[href^="https://t.co/"]'),
 				x,
 				interval;
 
