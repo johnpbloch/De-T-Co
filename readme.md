@@ -4,7 +4,7 @@ A chrome extension to take those annoying t.co links that twitter uses and repla
 
 ## Install
 
-[Download the .crx file](https://www.dropbox.com/s/k7tj865kigbxulr/de-t-co.crx). In chrome, go to the extensions page (chrome://extensions) and drag the .crx file onto the page.
+[Download the .crx file](https://github.com/johnpbloch/De-T-Co/raw/master/de-t-co.crx). In chrome, go to the extensions page (chrome://extensions) and drag the .crx file onto the page.
 
 ## License
 
