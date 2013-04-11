@@ -3,7 +3,7 @@
 
 	"name": "De-t.co",
 	"description": "This extension points all t.co urls on a page to their expanded url.",
-	"version": "1.0",
+	"version": "1.0.1",
 
 	"permissions": [
 		"https://twitter.com/",
