@@ -7,8 +7,12 @@
 				x;
 
 		for (x = 0; x < links.length; x += 1) {
-			if (undefined !== links[x].dataset && undefined !== links[x].dataset.expandedUrl) {
-				links[x].href = links[x].dataset.expandedUrl;
+			if (undefined !== links[x].dataset) {
+				if (undefined !== links[x].dataset.expandedUrl) {
+					links[x].href = links[x].dataset.expandedUrl;
+				} else if (undefined !== links[x].dataset.fullUrl) {
+					links[x].href = links[x].dataset.fullUrl;
+				}
 			}
 		}
 	}
