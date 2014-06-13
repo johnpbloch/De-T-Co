@@ -5,6 +5,10 @@
 	"description": "This extension points all t.co urls on a page to their expanded url.",
 	"version": "1.0.2",
 
+	"icons": { "16": "assets/icon16.png",
+	           "48": "assets/icon48.png",
+              "128": "assets/icon128.png" },
+
 	"permissions": [
 		"https://twitter.com/",
 		"https://*.twitter.com/"
