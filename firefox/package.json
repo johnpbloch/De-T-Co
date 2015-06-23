@@ -1,0 +1,9 @@
+{
+  "name": "de-t-co",
+  "title": "de-t-co",
+  "id": "jid1-fJE7HYlCweigaA",
+  "description": "Convert t.co links into their original links",
+  "author": "John P Bloch",
+  "license": "MIT",
+  "version": "0.1"
+}
