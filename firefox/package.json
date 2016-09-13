@@ -5,5 +5,9 @@
   "description": "Convert t.co links into their original links",
   "author": "John P Bloch",
   "license": "MIT",
-  "version": "0.1"
+  "version": "0.1",
+   "engines": {
+    "firefox": ">=40.0",
+    "fennec": ">=40.0"
+  }
 }
