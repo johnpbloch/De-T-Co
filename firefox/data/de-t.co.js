@@ -17,6 +17,7 @@
 				}
 				if (links[x].classList.contains('u-hidden')) {
 					links[x].classList.remove('u-hidden');
+					links[x].parentNode.insertBefore(document.createTextNode(' '), links[x]);
 				}
 			}
 		}
