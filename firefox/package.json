@@ -6,7 +6,7 @@
   "author": "John P Bloch",
   "license": "MIT",
   "main": "./lib/main.js",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "engines": {
     "firefox": ">=40.0",
     "fennec": ">=40.0"
