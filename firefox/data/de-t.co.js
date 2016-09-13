@@ -13,6 +13,9 @@
 				} else if (undefined !== links[x].dataset.fullUrl) {
 					links[x].href = links[x].dataset.fullUrl;
 				}
+				if (links[x].classList.contains('u-hidden')) {
+					links[x].classList.remove('u-hidden');
+				}
 			}
 		}
 	}
